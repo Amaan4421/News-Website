@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="CSS/registration.css">
+    <script src="Javascript/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.jpeg" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="title">
+            <h1>Registration Form</h1>
+        </div>
+
+        <div class="form">
+            <form id="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="number">Mobile Number:</label>
+                <input type="number" id="number" name="number" required><br><br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="text">Address:</label>
+                <input type="text" id="address" name="address" required><br><br>
+
+                <input class="checkbox" type="checkbox" required>
+                <label>I agree,<a href="">Terms and Conditions</a></label><br><br><br>
+
+                <button class="button" type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="alertbox" class="alertbox">
+        <div class="box">
+            <h2>You are now registered successfully!!!</h2>
+            <h3>You will get further details on your email that you provided.</h3>
+            <button id="backToHome">Back to Home Screen</button>
+        </div>
+    </div>
+
+    <footer class="f">
+        <p>All rights reserved. v1.0.0</p>
+    </footer>
+
+</body>
+</html>

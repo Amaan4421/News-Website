@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="CSS/registration.css">
+    <script src="Javascript/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.jpeg" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="title">
+            <h1>Send Feedback</h1>
+        </div>
+
+        <div class="form">
+            <form id="form">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="text">Your Complain:</label>
+                <input type="text" id="complain" name="complain"><br><br>
+                
+                <label for="text">Any Suggestion:</label>
+                <input type="text" id="suggestion" name="suggestion"><br><br><br>
+
+                <button class="button1" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="alertbox" class="alertbox">
+        <div class="box">
+            <h2>You have successfully submitted complain/suggestion form.</h2>
+            <button id="backToHome">Back to Home Screen</button>
+        </div>
+    </div>
+
+    <footer class="f">
+        <p>All rights reserved. v1.0.0</p>
+    </footer>
+
+</body>
+</html>
